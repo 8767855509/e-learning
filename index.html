@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-learning Platform</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/demo.js"></script>
+</head>
+
+<body>
+    <div class="navbar backgraund h-navresp">
+        <div class="hammer">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-list v-class">
+            <ul class="">
+                <div class="logo"><img src="./img/Era.png" alt="logo"></div>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#section">section</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+
+        <div class="right-nav v-class">
+            <input type="search" name="search" id="search" placeholder="search">
+            <button class="btn" id="Btn">search</button>
+        </div>
+    </div>
+
+    <section class="backgraund firstsection">
+        <div class="main-box" id="home">
+            <div class="firsthlf">
+                <p class="primary-heading" >Lorem ipsum dolor sit amet <span style="color: blue;">consectetur</span> adipisicing elit.</p>
+                <p class="secondary-heading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa quod
+                    deserunt nesciunt! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequatur vel animi?</p>
+                <button class="btn">subscrib</button>
+                <button class="btn">watch video</button>
+            </div>
+            <div class="secondHlf">
+                <img src="img/Era.png" alt="backgraund">
+            </div>
+        </div>
+    </section>
+<section class="ditails-note">
+    <div class="rightsection">
+        <div class="para" id="section">
+        <p class="primary-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quam corrupti magnam!</p>
+        <p class="secondary-heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur aut dicta quaerat non, voluptatibus impedit aspernatur, quidem doloremque, eligendi veniam animi id pariatur reprehenderit aliquam odio sunt optio! Similique ipsa amet esse deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. A at est architecto eaque, quae libero officiis aliquid odit facere animi sequi accusamus illo.
+        </p>
+    </div>
+        <div class="thamnel">
+            <img src="./img/Era.png" alt="thamnel">
+        </div>
+    </div>
+
+    <div class="rightsection leftsection ">
+        <div class="para">
+        <p class="primary-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quam corrupti magnam!</p>
+        <p class="secondary-heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur aut dicta quaerat non, voluptatibus impedit aspernatur, quidem doloremque, eligendi veniam animi id pariatur reprehenderit aliquam odio sunt optio! Similique ipsa amet esse deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. A at est architecto eaque, quae libero officiis aliquid odit facere animi sequi accusamus illo.
+        </p>
+    </div>
+        <div class="thamnel">
+            <img src="./img/Era.png" alt="thamnel">
+        </div>
+    </div>
+    
+    <div class="rightsection">
+        <div class="para" id="about">
+        <p class="primary-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quam corrupti magnam!</p>
+        <p class="secondary-heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur aut dicta quaerat non, voluptatibus impedit aspernatur, quidem doloremque, eligendi veniam animi id pariatur reprehenderit aliquam odio sunt optio! Similique ipsa amet esse deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. A at est architecto eaque, quae libero officiis aliquid odit facere animi sequi accusamus illo.
+        </p>
+    </div>
+        <div class="thamnel">
+            <img src="./img/Era.png" alt="thamnel">
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <input type="text" name=" " id="name" placeholder="enter your name">
+    <input type="email" name=" " id="email" placeholder="enter your email">
+    <textarea name="" id="" cols="30" rows="10" >feedback</textarea>
+    <button class="btn" id="submit">submit</button>
+</section>
+
+<footer>
+    copywrite &copy; 2027 all writes reserved
+</footer>
+
+
+
+<script>
+
+hammer=document.querySelector('.hammer')
+    navbar=document.querySelector('.navbar')
+    navlist = document.querySelector('.nav-list')
+    rignav = document.querySelector('.right-nav')
+    
+    hammer.addEventListener('click',()=>{
+    rignav.classList.toggle('v-class');
+    navlist.classList.toggle('v-class');
+    navbar.classList.toggle('h-navresp');
+    })
+    
+</script>
+</body>
+</html>
